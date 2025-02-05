@@ -42,7 +42,7 @@ Shiny SayHalo Status Calculatorは、React を用いて作成されたステー�
 │── README.md
 │── package.json
 
-## 📦 インストール & 実行方法
+## インストール & 実行方法
 1. **リポジトリをクローン**
    ```sh
    git clone https://github.com/your-username/shiny_sayhalo_status.git
