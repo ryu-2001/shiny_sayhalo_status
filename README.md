@@ -33,6 +33,7 @@ Shiny SayHalo Status Calculatorは、React を用いて作成されたステー�
 - **スタイル:** CSS-in-JS (inline styles)
 
 ##  プロジェクト構成
+```
 /shiny_sayhalo_status
 │── src/
 │   ├── components/
@@ -41,6 +42,7 @@ Shiny SayHalo Status Calculatorは、React を用いて作成されたステー�
 │── public/
 │── README.md
 │── package.json
+```
 
 ## インストール & 実行方法
 1. **リポジトリをクローン**
