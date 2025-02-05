@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+#  Shiny SayHalo Status Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  概要
+Shiny SayHalo Status Calculatorは、React を用いて作成されたステータス計算アプリです。  
+このアプリを使用すると、現在のポイントやステータスの上限を入力し、**最大のステータス値** を計算できます。  
+また、**1000・2000 まで上げるために必要なポイント** も表示します。
 
-## Available Scripts
+##  機能
+- **所持ポイントの入力**  
+  各ステータスの現在のポイントを入力できます。
+- **ステータスの入力**  
+  現在の各ステータス値と、それに対する割り振り回数を入力します。
+- **上限の入力**  
+  各ステータスの上限値と、割り振り回数の制限を入力します。
+- **計算ボタン**  
+  入力値に基づいて、最大のステータスや 1000・2000 までに必要なポイントを計算します。
+- **結果の表示**  
+  - **最大のステータス値**  
+    現在のポイントで到達可能な最大ステータスが表示されます。
+  - **1000 まであと**  
+    各ステータスが **1000** に達するために必要なポイントが表示されます。
+  - **2000 まであと**  
+    各ステータスが **2000** に達するために必要なポイントが表示されます。  
+    「**不可**」と表示された場合は、**割り振り回数の上限** により 2000 まで上げることができないことを意味します。
 
-In the project directory, you can run:
+##  使用方法
+1. アプリを開き、各入力欄に **現在のポイント・ステータス・上限値** を入力します。
+2. **「計算」ボタン** を押すと、結果が自動で表示されます。
+3. 必要なポイントや最大のステータス値を参考に、ステータスの配分を計画できます。
 
-### `npm start`
+##  技術スタック
+- **フロントエンド:** React
+- **スタイル:** CSS-in-JS (inline styles)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  プロジェクト構成
+/shiny_sayhalo_status
+│── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│── public/
+│── README.md
+│── package.json
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📦 インストール & 実行方法
+1. **リポジトリをクローン**
+   ```sh
+   git clone https://github.com/your-username/shiny_sayhalo_status.git
+   cd shiny_sayhalo_status
+1. **依存関係をインストール**
+   ```sh
+   npm install
+1. **アプリを起動**
+   ```sh
+   npm start
